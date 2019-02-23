@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova",'poppins';
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Section Categories */
+
+.categorie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 250px 90px 0 90px;
+}
+
+.header-card{
+    width: 200px;
+    height: 225px;
+}
+ 
+.card-overlay{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+/* Header Image */
+
+.header-img-1{
+    background: url('../images/image_ (1).jpg');
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.header-img-2{
+    background: url('../images/image_ (2).jpg');
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.header-img-3{
+    background: url('../images/image_ (3).jpg');
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.header-img-4{
+    background: url('../images/image_ (4).jpg');
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Couleur overlay */
+
+.overlay-style-1{
+    background:rgba(16,108,164,0.5);
+    
+}
+
+.overlay-style-2{
+    background:rgba(32,162,155,0.5);
+}
+
+.overlay-style-3{
+    background:rgba(132,21,165,0.5);
+}
+
+.overlay-style-4{
+    background:rgba(170,39,78,0.5);
+}
+
+
+/***************Discover***************/
+
+.btn-discover{
+    width: 100px;
+    background-color: #106CA4;
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 0.7em;
+    cursor: pointer;
+    margin: 100px auto;
+    
+}
+
+.btn-discover a{
+    color: #ffffff;
+}
+
+.header-card .card-overlay .text-categorie{
+    display: inline-block;
+    width: 100%;
+    margin: 76px 0 0 0;
+    font-size: 27px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.header-card .card-overlay .text-zone{
+    display: inline-block;
+    width: 100%;
+    color: #ffffff
+}
+
+/***************Section Categorie***************/
+
+.presentation article{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.presentation article .image{
+    width: 400px;
+    height: 380px;
+    background: url('../images/image_ (1).jpg');
+    background-size: cover;
+}
+
+.presentation article .contenu-text-categorie{
+    width: 600px;
+    height: 245px;
+    padding-top: 50px;
+}
+
+.presentation article .contenu-text-categorie .titre-1{
+    color: #707070;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.presentation article .contenu-text-categorie .titre-2{
+    color: #106CA4;
+    font-size: 24px;
+    font-weight: 800;
+    margin: -5px 0 25px 0;
+}
+
+.presentation article .contenu-text-categorie .paragraphe{
+    color: #707070;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.presentation article .contenu-text-categorie .btn-categorie{
+    font-size: 15px;
+    color: #106CA4;
+    margin-top: 20px;
+}
+
+.presentation .style1{
+    flex-direction: row-reverse;
+}
+
+.presentation .style2{
+    flex-direction: row;
+}
+
+.presentation .style2 .contenu-text-categorie{
+    text-align: right;
+}
+
+.presentation .style3{
+    flex-direction: row-reverse;
+}
+
+.presentation .style4{
+    flex-direction: row;
+}
+
+.presentation .style4 .contenu-text-categorie{
+    text-align: right;
+}
+
+/***************Section blue***************/
+
+.container-blue{
+    text-align: center;
+    background: #106CA4;
+    padding: 60px 80px 100px 80px;
+}
+
+.titre-blue{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.text-blue{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+
+.btn-blue{
+    width: 24%;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 40px auto 0 auto;
+}
+
+.btn-blue a{
+    color: #106CA4;
+    font-size: 18px;
+}
+
+.btn-blue:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+/***************Section nouvelles***************/
+
+.container-nouvelle .titre{
+    text-align: center;
+    font-size: 35px;
+    color: #106CA4;
+}
+
+.container-nouvelle .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+}
+
+.container-nouvelle .navbar ul li{
+    margin-right: 23px;
+}
+
+.container-nouvelle .navbar ul li a{
+    color: #707070;
+}
+
+.container-nouvelle .navbar ul li:hover, a:hover{
+    border-bottom: 1px solid #707070;
+    color: #707070;
+    font-weight: 600;
+}
+
+.slider-nouvelle .nouvelle-container{
+    width: 150px;
+    height: 150px;
+}
+
+.slider-nouvelle .nouvelle-container .nouvelle-overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(16,108,164,0.5);
+}
